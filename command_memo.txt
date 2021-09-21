@@ -1,0 +1,51 @@
+
+pip install djangorestframework-simplejwt==4.6.0
+
+---
+pip install django==3.0.7
+pip install djangorestframework==3.10
+pip install djoser
+pip install django-cors-headers
+pip install Pillow
+
+---
+
+django-admin startproject api_insta .
+django-admin startapp api
+python manage.py makemigrations
+python manage.py migrate
+python manage.py createsuperuser
+
+---
+
+npx create-react-app . --template redux-typescript --use-npm
+
+npm install @material-ui/core
+
+npm install @material-ui/icons
+
+npm install @material-ui/lab
+
+npm install react-icons
+
+npm install axios
+
+npm install formik --save
+
+npm install formik-material-ui
+
+npm install yup @types/yup
+
+npm install @types/react-modal
+
+npm install react-modal
+
+npm start
+
+---
+
+VS拡張
+「ES7 React/Redux/GraphQL/React-Native snippets」
+「Prettier - Code formatter」
+→settings 検索[save]→Format On Save にチェック
+
